@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/profile/public/static/css/main.1ec8050e.css",
-    "main.js": "/profile/public/static/js/main.c551fda6.js",
-    "static/js/453.90c38bfe.chunk.js": "/profile/public/static/js/453.90c38bfe.chunk.js",
-    "static/media/photograph.jpg": "/profile/public/static/media/photograph.64ec377c403d5531db33.jpg",
-    "static/media/makaut_logo.png": "/profile/public/static/media/makaut_logo.c9fe15a9eace4635bc81.png",
-    "static/media/maven_logo.webp": "/profile/public/static/media/maven_logo.466338ff87f9cbb5ee6f.webp",
-    "static/media/iiests_logo.png": "/profile/public/static/media/iiests_logo.bfa279fdf79048d94a89.png",
-    "static/media/github-logo.svg": "/profile/public/static/media/github-logo.8ca0b5d5c303fef3b524580847931807.svg",
-    "static/media/phone.svg": "/profile/public/static/media/phone.dfc6cef4a0511f1c941d6bb85c4b5337.svg",
-    "static/media/email.svg": "/profile/public/static/media/email.6fa64f34678b6adbbe74cc211fd8f30d.svg",
-    "static/media/linkedin-logo.svg": "/profile/public/static/media/linkedin-logo.536dc17c4561b4199201a8cf797e6df3.svg",
-    "index.html": "/profile/public/index.html",
-    "main.1ec8050e.css.map": "/profile/public/static/css/main.1ec8050e.css.map",
-    "main.c551fda6.js.map": "/profile/public/static/js/main.c551fda6.js.map",
-    "453.90c38bfe.chunk.js.map": "/profile/public/static/js/453.90c38bfe.chunk.js.map"
+    "main.css": "/profile/static/css/main.1ec8050e.css",
+    "main.js": "/profile/static/js/main.5b196e1f.js",
+    "static/js/453.90c38bfe.chunk.js": "/profile/static/js/453.90c38bfe.chunk.js",
+    "static/media/photograph.jpg": "/profile/static/media/photograph.64ec377c403d5531db33.jpg",
+    "static/media/makaut_logo.png": "/profile/static/media/makaut_logo.c9fe15a9eace4635bc81.png",
+    "static/media/maven_logo.webp": "/profile/static/media/maven_logo.466338ff87f9cbb5ee6f.webp",
+    "static/media/iiests_logo.png": "/profile/static/media/iiests_logo.bfa279fdf79048d94a89.png",
+    "static/media/github-logo.svg": "/profile/static/media/github-logo.8ca0b5d5c303fef3b524580847931807.svg",
+    "static/media/phone.svg": "/profile/static/media/phone.dfc6cef4a0511f1c941d6bb85c4b5337.svg",
+    "static/media/email.svg": "/profile/static/media/email.6fa64f34678b6adbbe74cc211fd8f30d.svg",
+    "static/media/linkedin-logo.svg": "/profile/static/media/linkedin-logo.536dc17c4561b4199201a8cf797e6df3.svg",
+    "index.html": "/profile/index.html",
+    "main.1ec8050e.css.map": "/profile/static/css/main.1ec8050e.css.map",
+    "main.5b196e1f.js.map": "/profile/static/js/main.5b196e1f.js.map",
+    "453.90c38bfe.chunk.js.map": "/profile/static/js/453.90c38bfe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ec8050e.css",
-    "static/js/main.c551fda6.js"
+    "static/js/main.5b196e1f.js"
   ]
 }
