@@ -1,0 +1,36 @@
+.footerContainer{
+    /* background-color: #1f1f1f !important; */
+    width: 96% !important;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+}
+
+.footerText{
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: justify;
+    padding-bottom: 1%;
+    color: #d9d9d9;
+    padding-left: 2%;
+    text-transform: capitalize !important;
+}
+
+.footerBtnContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 3%;
+}
+
+.downloadBtn, .viewBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around !important;
+    color: #0b4b7e !important;
+    border: 1px solid #0b4b7e !important;
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    text-transform: none !important;
+}

@@ -1,0 +1,33 @@
+.profTrainingContainer{
+    /* background-color: #d1e9ff !important; */
+    width: 33% !important;
+    /* padding-top: 1%; */
+    /* padding-left: 1%; */
+    /* padding-right: 1%; */
+    /* padding-bottom: 1%; */
+    border: 1px solid #1f1f1f;
+    border-radius: 10px;
+    margin: 0.2%;
+}
+
+.profTrainingTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profTrainingTitleText{
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    text-align: justify;
+    padding-bottom: 1%;
+    color: #1f1f1f;
+    padding-left: 2%;
+    text-transform: capitalize !important;
+}
+
+.profTrainingImage{
+    height: 3.4rem;
+    width: 8.6rem;
+    /* margin-top: 1%; */
+}

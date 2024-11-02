@@ -1,0 +1,118 @@
+.topContainer {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #d9d9d9; */
+    color: #0b4b7e;
+    text-align: center;
+}
+
+.profilePhoto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 1%;
+}
+
+.profTrainingImage{
+    height: 1.7rem;
+    width: 4.3rem;
+    margin-top: 1%;
+}
+
+.profTrainingContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.pageTitle {
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+}
+
+.designationText {
+    font-size: 0.87rem !important;
+    font-weight: 500 !important;
+}
+
+.designationPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.designationDivider {
+    color: #0b4b7e;
+    width: 2px;
+    opacity: 1;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1%;
+}
+
+.contactIcon {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #0b4b7e !important;
+}
+
+.phoneBtn,
+.linkedinBtn,
+.githubBtn,
+.emailBtn {
+    display: flex;
+    flex-direction: row;
+    margin: 1% !important;
+    width: 13rem;
+    /* border: 1px solid #1f1f1f;
+    border-radius: 7px; */
+}
+
+.contactInfo {
+    padding-left: 7%;
+    text-transform: none !important;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1f1f1f;
+}
+
+/* .contactInfo:hover {
+    padding-left: 7%;
+    text-transform: none !important;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #d9d9d9 !important;
+} */
+
+/* .emailBtn {
+    display: flex;
+    flex-direction: row;
+    margin: 1% !important;
+    width: 17rem;
+    border: 1px solid #1f1f1f;
+    border-radius: 7px;
+} */
+
+.phoneBtn:hover,
+.linkedinBtn:hover,
+.githubBtn:hover {
+    display: flex;
+    flex-direction: row;
+    margin: 1% !important;
+    width: 13rem;
+    border: 2px solid #1f1f1f;
+    border-radius: 7px;
+}
+
+.emailBtn:hover {
+    display: flex;
+    flex-direction: row;
+    margin: 1% !important;
+    width: 17rem;
+    border: 2px solid #1f1f1f;
+    border-radius: 7px;
+}
