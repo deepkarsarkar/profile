@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.cdba1eef.css",
-    "main.js": "/profile/static/js/main.87ff14a8.js",
+    "main.css": "/profile/static/css/main.030d4bdd.css",
+    "main.js": "/profile/static/js/main.3494e6bd.js",
     "static/js/453.90c38bfe.chunk.js": "/profile/static/js/453.90c38bfe.chunk.js",
     "static/media/photograph.jpg": "/profile/static/media/photograph.64ec377c403d5531db33.jpg",
     "static/media/makaut_logo.png": "/profile/static/media/makaut_logo.c9fe15a9eace4635bc81.png",
@@ -12,12 +12,12 @@
     "static/media/email.svg": "/profile/static/media/email.6fa64f34678b6adbbe74cc211fd8f30d.svg",
     "static/media/linkedin-logo.svg": "/profile/static/media/linkedin-logo.536dc17c4561b4199201a8cf797e6df3.svg",
     "index.html": "/profile/index.html",
-    "main.cdba1eef.css.map": "/profile/static/css/main.cdba1eef.css.map",
-    "main.87ff14a8.js.map": "/profile/static/js/main.87ff14a8.js.map",
+    "main.030d4bdd.css.map": "/profile/static/css/main.030d4bdd.css.map",
+    "main.3494e6bd.js.map": "/profile/static/js/main.3494e6bd.js.map",
     "453.90c38bfe.chunk.js.map": "/profile/static/js/453.90c38bfe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdba1eef.css",
-    "static/js/main.87ff14a8.js"
+    "static/css/main.030d4bdd.css",
+    "static/js/main.3494e6bd.js"
   ]
 }
