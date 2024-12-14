@@ -1,22 +1,22 @@
-.educationContainer {
+.projectContainer{
     /* background-color: #d1e9ff !important; */
-    width: 67% !important;
+    width: 100% !important;
     /* padding-top: 1%; */
-    padding-left: 0.5%;
-    padding-right: 0.5%;
+    /* padding-left: 1%; */
+    /* padding-right: 1%; */
     /* padding-bottom: 1%; */
     border: 1px solid #1f1f1f;
     border-radius: 10px;
-    /* margin: 0.2%; */
+    margin: 0.2%;
 }
 
-.educationTitle {
+.projectTitle{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.educationTitleText {
+.projectTitleText{
     font-size: 1.5rem !important;
     font-weight: 700 !important;
     text-align: justify;
@@ -26,13 +26,13 @@
     text-transform: capitalize !important;
 }
 
-.eduDetailsRow {
+.projectDetailsRow {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-.pgEduCard {
+.projectCard {
     display: flex;
     flex-direction: column;
     background-color: #e5e5e5;
@@ -42,42 +42,22 @@
     margin-left: 1%;
     margin-right: 1%;
     margin-bottom: 1%;
-    padding-top: 0.5%;
+    padding: 0.5%;
 }
 
-.gradEduCard {
-    display: flex;
-    flex-direction: column;
-    background-color: #e5e5e5;
-    border-radius: 10px;
-    justify-content: center;
-    width: 50%;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 1%;
-    padding-top: 0.5%;
-}
-
-.eduImage {
-    height: 3rem;
-    width: 3rem;
-    margin-left: 40%;
-}
-
-.bioText {
-    margin: 1%;
-    text-align: justify;
-    font-size: 1rem;
-    font-weight: 500;
-    color: #0b4b7e;
-}
-
-.eduCardRow {
+.projectCardRow{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 1%;
+    align-items: center;
 }
 
-.textCenter {
-    text-align: center;
+.projectCardText{
+    font-size: 0.75rem !important;
+    font-weight: 500 !important;
+    width: 87%;
+    padding-top: 1%;
+    margin-left: 1%;
+    text-align: justify;
 }

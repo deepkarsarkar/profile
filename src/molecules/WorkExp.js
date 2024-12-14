@@ -29,14 +29,35 @@ const COLORS = ['#007DC5', '#DC6900'];
 // Custom tooltip to show value with "months" unit
 const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {
-      return (
-        <div style={{ backgroundColor: '#ffffff', padding: '5px', border: '1px solid #cccccc' }}>
-          <p>{`${payload[0].name} : ${payload[0].value} mon`}</p>
-        </div>
-      );
+        return (
+            <div style={{ backgroundColor: '#ffffff', padding: '5px', border: '1px solid #cccccc', fontSize: '12px' }}>
+                <p>{`${payload[0].name}`} <br /> {`${payload[0].value} months`}</p>
+            </div>
+        );
     }
     return null;
-  };
+};
+
+const CustomLegend = (props) => {
+    const { payload } = props;
+    return (
+        <ul style={{ fontSize: '12px', padding: 0, marginBottom: 5 }}>
+            {payload.map((entry, index) => (
+                <li
+                    key={`item-${index}`}
+                    style={{
+                        color: entry.color,
+                        listStyleType: 'square',
+                        marginLeft: '50px', // Adjust this as needed for overall alignment
+                        paddingLeft: '5px', // Minimizes the gap between bullet and text
+                    }}
+                >
+                    {entry.value}
+                </li>
+            ))}
+        </ul>
+    );
+};
 
 const WorkExp = () => {
     return (
@@ -48,23 +69,25 @@ const WorkExp = () => {
                 </Button>
             </div>
             <hr />
-            <PieChart width={296} height={125} className={styles.workExpChart}>
-                <Pie
-                    data={experienceData}
-                    cx="50%"
-                    cy="50%"
-                    outerRadius={40} innerRadius={20} startAngle={90} endAngle={450}
-                    fill="#fff"
-                    dataKey="value"
-                    label
-                >
-                    {experienceData.map((entry, index) => (
-                        <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                    ))}
-                </Pie>
-                <Tooltip content={<CustomTooltip />} />
-                {/* <Legend /> */}
-            </PieChart>
+            <div className={styles.workExpChart}>
+                <PieChart width={296} height={133} className={styles.workExpChart}>
+                    <Pie
+                        data={experienceData}
+                        cx="50%"
+                        cy="50%"
+                        outerRadius={40} innerRadius={20} startAngle={90} endAngle={450} paddingAngle={5}
+                        fill="#fff"
+                        dataKey="value"
+                        label
+                    >
+                        {experienceData.map((entry, index) => (
+                            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                        ))}
+                    </Pie>
+                    <Tooltip content={<CustomTooltip />} />
+                    <Legend content={<CustomLegend />} />
+                </PieChart>
+            </div>
         </div>
     )
 }

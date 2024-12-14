@@ -6,3 +6,16 @@
   display: flex;
   flex-direction: row;
 }
+
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .mainContainer {
+    flex-direction: column;
+    width: 100%; /* Stack items vertically on mobile */
+  }
+
+  /* .App {
+    padding: 10px; 
+  } */
+}

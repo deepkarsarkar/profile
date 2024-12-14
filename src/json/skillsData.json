@@ -1,0 +1,50 @@
+[
+    {
+        "skill": "Digital Electronics Design",
+        "score": 8
+    },
+    {
+        "skill": "Verilog HDL",
+        "score": 8
+    },
+    {
+        "skill": "SystemVerilog HVL",
+        "score": 8
+    },
+    {
+        "skill": "UVM",
+        "score": 7
+    },
+    {
+        "skill": "STA",
+        "score": 6
+    },
+    {
+        "skill": "CMOS Fundamentals",
+        "score": 7
+    },
+    {
+        "skill": "SVA",
+        "score": 6
+    },
+    {
+        "skill": "PERL Scripting",
+        "score": 5
+    },
+    {
+        "skill": "C/C++ Programming",
+        "score": 5
+    },
+    {
+        "skill": "Linux",
+        "score": 6
+    },
+    {
+        "skill": "Communication Protocols",
+        "score": 5
+    },
+    {
+        "skill": "DFT",
+        "score": 6
+    }
+]

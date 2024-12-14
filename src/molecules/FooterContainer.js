@@ -10,7 +10,7 @@ const FooterContainer = () => {
             <div className={styles.footerBtnContainer}>
                 <Button className={styles.downloadBtn} variant='outlined'>
                     <FileDownloadOutlinedIcon />
-                    <Typography>&emsp;Download Resume</Typography>
+                    <Typography className={styles.footerText}>&emsp;Download Resume</Typography>
                 </Button>
                 {/* <Button className={styles.viewBtn} variant='outlined'>View Resume</Button> */}
             </div>

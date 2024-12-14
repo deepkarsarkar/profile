@@ -1,0 +1,26 @@
+[
+    {
+        "institute": "Indian Institute of Engineering Science & Technology, Shibpur",
+        "degree": "Master of Technology (VLSI Design)",
+        "marks": "9.53 / 10",
+        "yop": "12/16/2022"
+    },
+    {
+        "institute": "Maulana Abul Kalam Azad University of Technology, West Bengal",
+        "degree": "Bachelor of Technology (Electronics & Communication Engineering)",
+        "marks": "8.27 / 10",
+        "yop": "08/01/2018"
+    },
+    {
+        "institute": "West Bengal Council of Higher Secondary Education",
+        "degree": "10 + 2",
+        "marks": "84 %",
+        "yop": "05/31/2013"
+    },
+    {
+        "institute": "West Bengal Board of Secondary Education",
+        "degree": "10",
+        "marks": "83.5 %",
+        "yop": "05/27/2011"
+    }
+]

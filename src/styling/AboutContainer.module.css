@@ -7,7 +7,10 @@
     padding-bottom: 1%;
     border: 1px solid #0b4b7e;
     border-radius: 10px;
-    margin: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
 }
 
 .aboutTitle{
@@ -20,26 +23,28 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 95%;
+    width: 94%;
     /* background-color: #d1e9ff; */
     padding-left: 1%;
     padding-right: 1%;
 }
 
 .aboutTitleText{
-    font-size: 1.75rem !important;
+    font-size: 1.25rem !important;
     font-weight: 700 !important;
     text-align: justify;
-    padding-bottom: 1%;
+    padding-top: 1%;
+    /* padding-bottom: 0.5%; */
     color: #0b4b7e;
     padding-left: 2%;
     text-transform: capitalize !important;
 }
 
 .bioText{
-    margin: 1%;
+    /* margin: 1%; */
     text-align: justify;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 0.75rem !important;
+    font-weight: 500 !important;
     color: #0b4b7e;
+    gap: 0.3%;
 }

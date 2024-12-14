@@ -1,23 +1,23 @@
 import React from 'react';
 import styles from '../styling/RightPanel.module.css';
 import Education from '../molecules/Education';
-import ProfTraining from '../molecules/ProfTraining';
 import WorkExp from '../molecules/WorkExp';
 import Skills from '../molecules/Skills';
+import Projects from '../molecules/Projects';
 
 const RightPanel = () => {
     return (
         <div className={styles.rightPanel}>
             <div className={styles.firstRow}>
                 <Education />
-                <ProfTraining />
+                <WorkExp />
             </div>
             <div className={styles.firstRow}>
-                <WorkExp />
                 <Skills />
+                {/* <WorkExp /> */}
             </div>
             <div className={styles.firstRow}>
-                <WorkExp />
+                <Projects />
             </div>
         </div>
     )
